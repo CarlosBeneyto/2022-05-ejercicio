@@ -1,0 +1,35 @@
+html {
+
+    background-color: hsl(150 47% 48%);
+    font-family: sans-serif;
+    line-height: 125%;
+    text-align: justify;
+    hyphens: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin: 20px;
+    border: black 3px solid;
+    background-color: hsl(150 25% 60%);
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-right: black 1px solid;
+}
+
+div {
+    margin: 10px;
+}
+

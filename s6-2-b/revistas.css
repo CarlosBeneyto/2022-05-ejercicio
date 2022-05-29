@@ -1,0 +1,39 @@
+html {
+
+    background-color: hsl(36 54% 68%);
+
+    font-family: sans-serif;
+    line-height: 125%;
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+section {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+article {
+    flex: auto;
+    width: 300px;
+    margin:10px;
+    border: black 3px solid;
+
+    background-color: hsl(38 71% 83%);
+}
+
+h2 {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: black 3px solid;
+}
+
+p {
+    padding-left: 10px;padding-right: 10px;
+}
